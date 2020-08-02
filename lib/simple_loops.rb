@@ -26,5 +26,5 @@ def return_string_array(array)
     new_array[i] = array[i].to_s
     i += 1
   end
-  return array
+  return new_array
 end
